@@ -8,13 +8,13 @@ import { appService } from './app.service';
 
   export class AppComponent {
 
-    //NodeJs application will run on http://localhost:8080, which needs to be set as apiHost.
+    //Node.js application will run on http://localhost:8080, which needs to be set as apiHost.
     public apiHost="http://localhost:8080";
   
-    //Url of the authorizationserver action in NodeJs application.
+    //Url of the authorizationserver action in Node.js application.
     public authorizationUrl= "/authorizationserver";
     
-    //Url of the GetDetails action in NodeJs application.
+    //Url of the GetDetails action in Node.js application.
     public getEmbedConfigUrl= "/getData";
 
     public embedConfig: any;

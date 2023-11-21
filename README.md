@@ -1,6 +1,6 @@
- # BoldBI Embedded Angular with NodeJS Sample
+ # BoldBI Embedded Angular with Node.js Sample
 
-This project was created using Angular 16 with NodeJS. This application aims to demonstrate how to render the dashboard available on your Bold BI server.
+This project was created using Angular 16 with Node.js. This application aims to demonstrate how to render the dashboard available on your Bold BI server.
 
  ## Dashboard view
 
@@ -13,10 +13,6 @@ This project was created using Angular 16 with NodeJS. This application aims to 
  * [Visual Studio Code](https://code.visualstudio.com/download)
 
 > **NOTE:** Node.js versions 16.14 to 18.18 are supported.
-
-#### Help link
-
- * https://help.boldbi.com/embedded-bi/faq/where-can-i-find-the-product-version/
 
  #### Supported browsers
   
@@ -47,11 +43,11 @@ This project was created using Angular 16 with NodeJS. This application aims to 
 
  ## Developer IDE
 
-  * Visual studio code(https://code.visualstudio.com/download)
+  * [Visual Studio Code](https://code.visualstudio.com/download)
 
  ### Run a Sample Using Visual Studio Code
 
-  * Open the Angular with NodeJS sample in **Visual Studio Code**.
+  * Open the Angular with Node.js sample in **Visual Studio Code**.
    
   * Open the terminal in Visual Studio Code and install all dependent packages by executing the following command in the terminal.
 
