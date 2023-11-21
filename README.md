@@ -4,7 +4,8 @@ This project was created using Angular 16 with NodeJS. This application aims to 
 
  ## Dashboard view
 
-![Dashboard View](https://github.com/bold-bi/embedded-bi-samples/assets/129487075/b870c538-dbe0-4766-b81e-cf17852651d6)
+![Dashboard View](https://github.com/boldbi/angular-with-nodejs-sample/assets/129487075/0ae43cea-33eb-49df-938f-b3a4c101abb9)
+
 
  ## Requirements/Prerequisites
 
@@ -34,7 +35,7 @@ This project was created using Angular 16 with NodeJS. This application aims to 
 
  * Copy the downloaded `embedConfig.json` file and paste it into the designated [location](https://github.com/boldbi/angular-with-nodejs-sample/tree/master) within the application. Please ensure you have placed it in the application, as shown in the following image.
 
-    ![EmbedConfig image](https://github.com/bold-bi/embedded-bi-samples/assets/129487075/ef8dada1-c17b-44f6-81e5-01774aeee8fb)
+    ![EmbedConfig image](https://github.com/boldbi/angular-with-nodejs-sample/assets/129487075/bcefae3e-0b86-4d01-81da-dd2d622a800e)
 
  ## Run a Sample Using Command Line Interface 
     
@@ -66,7 +67,7 @@ This project was created using Angular 16 with NodeJS. This application aims to 
 
   * After the application has started, it will display a URL in the `command line interface`, typically something like (e.g., http://localhost:4200/). Copy this URL and paste it into your default web browser. 
 
-      ![dashboard view](https://github.com/bold-bi/embedded-bi-samples/assets/129487075/7e3c4676-4567-4fde-b1f4-4b770fa02d98)
+      ![dashboard view](https://github.com/boldbi/angular-with-nodejs-sample/assets/129487075/e2d60aab-0be4-49c0-8f12-7738b7fbf2af)
 
 >**NOTE:** If the API host is already in use, modify the port number per your preference in embed.js and update that in app.component.ts file.
 
