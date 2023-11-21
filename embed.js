@@ -56,6 +56,7 @@ function GetSignatureUrl(queryString)
 
 return gen_hmac;
 }
+
 app.get('/getData', (req, res) => {
   const embedConfigPath = path.join(__dirname, 'embedConfig.json');
   const jsonData = fs.readFileSync(embedConfigPath, 'utf8');

@@ -6,12 +6,12 @@ import { BoldBI } from '@boldbi/boldbi-embedded-sdk';
 import { DashboardService } from '../dashboard.service';
 
 @Component({
-    selector: 'app-dashboard-listing',
-    templateUrl: './dashboard-listing.component.html',
+    selector: 'app-dashboard',
+    templateUrl: './dashboard.component.html',
     providers: [appService]
 })
 
-export class DashboardListing implements OnInit {
+export class Dashboard implements OnInit {
 
     public dashboardsList!: Item[];
     result: any;
@@ -58,6 +58,7 @@ export class DashboardListing implements OnInit {
             embedContainerId: "dashboard",
             embedType: this.dashboardService.embedConfig.EmbedType,
             environment: this.dashboardService.embedConfig.Environment,
+            mode: BoldBI.Mode.View,
             width:"100%",
             height:"100%",
             expirationTime:100000,
