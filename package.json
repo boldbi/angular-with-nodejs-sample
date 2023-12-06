@@ -1,0 +1,23 @@
+{
+  "name": "AngularWithNodeJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "embed.js",
+  "dependencies": {
+    "@boldbi/boldbi-embedded-sdk": "6.18.11",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "scripts": {
+    "start": "npm-run-all --parallel start-embed start-client",
+    "start-embed": "node embed.js",
+    "start-client": "cd Angular && npm start",
+    "postinstall": "cd Angular && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
